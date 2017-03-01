@@ -8,28 +8,31 @@
     <body>
 		<div id="container">
 			<ul class="tabs">
-				<li><a href="#HomeLink">Home</a></li>
-				<li><a href="#FormLink">Form</a></li>
-				<li><a href="#JSLink">Javascript</a></li>
+				<li id="home"><a href="#HomeLink">Home</a></li>
+				<li id="form"><a href="#FormLink">Form</a></li>
+				<li id="js"><a href="#JSLink">Javascript</a></li>
+
 			</ul>
-			
-			<br>
 			<div id="HomeLink">
-				The gravitational attraction between 2 objects can be found using the following equation:
-				<br>				
-				F = GMm/R2<br>
 				
-				
-				
-				
-				
-				
+				The gravitational attraction between 2 objects can be found using the following equation:	
+				F = GMm/R2
 				
 			</div>
 			<div id="FormLink">
 			
-				Form goes here
-			
+				<form>
+					Distance between objects (M):<br>
+					<input type="number" name="distance"><br>
+					Mass of object 1 (KG):<br>
+					<input type="number" name="mass1">	<br>
+					Mass of object 2(KG):<br>
+					<input type="number" name="mass2"><br>
+					<button type="button">Calculate</button><br>
+				</form>
+				<div id="print"> 
+				</div>
+							
 			</div>
 			<div id="JSLink">
 			
