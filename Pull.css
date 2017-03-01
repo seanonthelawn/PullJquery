@@ -65,7 +65,7 @@ ul.tabs li a {
 
 ul.tabs li a.selected {
 	padding-bottom: 14px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 3px solid #fff;
 	background-color: #ffffff;
 }
 
