@@ -22,7 +22,7 @@ $(document).ready(function(){
 		
 		
 			
-		$('#print').html( parseFloat(distance) + parseFloat(mass1) + parseFloat(mass2));
+		$('#print').html( (0.00000000006673 * parseFloat(mass1) * parseFloat(mass2))/(parseFloat(distance)*parseFloat(distance)) + "N");
 		
 	});
 	

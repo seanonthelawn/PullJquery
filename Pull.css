@@ -75,6 +75,7 @@ div#HomeLink {
 	border: 1px solid #ccc;
 	clear: both;
 	background-color: #fff;
+	height: 800px;
 }
 
 div#FormLink {
@@ -83,6 +84,7 @@ div#FormLink {
 	border: 1px solid #ccc;
 	clear: both;
 	background-color: #fff;
+	height: 800px;
 }
 
 div#JSLink {
@@ -91,4 +93,5 @@ div#JSLink {
 	border: 1px solid #ccc;
 	clear: both;
 	background-color: #fff;
+	height: 800px;
 }
