@@ -19,20 +19,32 @@ body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:
   box-sizing: border-box;    
 }
 
+h1 {
+	font-weight: bold;
+	padding-left: 64px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	font-size: 300%;
+	margin-top: 32px;
+	
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #f4f4f4;
+	background-color: #a8c9ff;
 	}
 	
 a {
 	text-decoration: none;
 	}
-a:link {
+	
+	
+a:link { color: #000;
 	}
-a:visited {
+a:visited { color: #000;
 	}
-a:active {
+a:active { color: #000;
 	}
 a:hover {
 	text-decoration: underline;
@@ -41,6 +53,7 @@ a:hover {
 div#container {
 	margin: 32px;
 	padding: 32px;
+	margin-top: 10px;
 }
 
 ul.tabs {
@@ -75,7 +88,7 @@ div#HomeLink {
 	border: 1px solid #ccc;
 	clear: both;
 	background-color: #fff;
-	height: 800px;
+	height: 600px;
 }
 
 div#FormLink {
@@ -84,7 +97,7 @@ div#FormLink {
 	border: 1px solid #ccc;
 	clear: both;
 	background-color: #fff;
-	height: 800px;
+	height: 600px;
 }
 
 div#JSLink {
@@ -93,5 +106,12 @@ div#JSLink {
 	border: 1px solid #ccc;
 	clear: both;
 	background-color: #fff;
-	height: 800px;
+	height: 600px;
+}
+
+footer{
+	
+	text-align: center;
+	font-style: italic;
+	font-size: 75%;
 }
