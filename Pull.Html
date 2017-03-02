@@ -35,12 +35,12 @@
 			<div id="FormLink">
 			
 				<form>
-					Distance between objects (M):<br>
-					<input type="number" name="distance" id="distance"><br>
-					Mass of object 1 (KG):<br>
-					<input type="number" name="mass1" id="mass1"><br>
-					Mass of object 2(KG):<br>
-					<input type="number" name="mass2" id="mass2"><br>
+					<label for="distance">Distance between the center of mass of the two objects (M):</label><br>
+					<input type="number" name="distance" id="distance" placeholder="6371000"><br>
+					<label for="distance">Mass of Object 1 (KG):</label><br>
+					<input type="number" name="mass1" id="mass1" placeholder="597200000000000000000000"><br>
+					<label for="distance">Mass of Object 2 (KG):</label><br>
+					<input type="number" name="mass2" id="mass2" placeholder="65"><br>
 					<button type="button" id="button">Calculate</button><br>
 				</form>
 				<div id="print"> 
@@ -54,7 +54,7 @@
 				Asigning and removing the selected class allows me to differentiate between which tabs, and assign CSS propertys to the active tab that are not  present for the two inactive tabs. <br>
 				The math function pulls all of the information from the form fields and assigns them to variables. Then it plugs the variables into a print function with the gravitational attraction equation in it. Notably, the equation divides by the distance squared, so if you type 0 into the distance field in the form, the equation will return infinity.
 				</p	>
-				<form id="floatRight">
+				<form id="floatright">
 					<textarea rows="25" cols="100">
 $(document).ready(function(){
 
