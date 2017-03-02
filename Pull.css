@@ -89,6 +89,7 @@ div#HomeLink {
 	clear: both;
 	background-color: #fff;
 	height: 600px;
+	
 }
 
 div#FormLink {
@@ -98,6 +99,7 @@ div#FormLink {
 	clear: both;
 	background-color: #fff;
 	height: 600px;
+	
 }
 
 div#JSLink {
@@ -107,7 +109,19 @@ div#JSLink {
 	clear: both;
 	background-color: #fff;
 	height: 600px;
+	
 }
+
+#floatleft {
+	float: left;
+	width: 45%;
+}
+
+#floatright {
+	float: right;
+}
+
+
 
 footer{
 	

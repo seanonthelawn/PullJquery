@@ -49,7 +49,37 @@
 			</div>
 			<div id="JSLink">
 			
-				Conclusion goes here
+				<p id="floatleft">This is my Javascript as of 3/1/2017. Some things id like to point out are the tabs, the lines that assign and remove the selected class, and the math function. <br>
+				The tabs...<br>
+				Asigning and removing the selected class allows me to differentiate between which tabs, and assign CSS propertys to the active tab that are not  present for the two inactive tabs. <br>
+				The math function pulls all of the information from the form fields and assigns them to variables. Then it plugs the variables into a print function with the gravitational attraction equation in it. Notably, the equation divides by the distance squared, so if you type 0 into the distance field in the form, the equation will return infinity.
+				</p	>
+				<form id="floatRight">
+					<textarea rows="25" cols="100">
+$(document).ready(function(){
+
+	$('#container ul.tabs a').click(function(e){
+		
+		e.preventDefault();
+		$('#container > div').hide().filter(this.hash).show();
+
+		$('#container ul.tabs a').removeClass('selected');
+
+		$(this).addClass('selected');
+
+	}).filter(':first').click();
+	$('#button').click(function(){
+		distance = $('#distance').val();
+		mass1 = $('#mass1').val();
+		mass2 = $('#mass2').val();
+		$('#print').html( (0.00000000006673 * parseFloat(mass1) * parseFloat(mass2))/(parseFloat(distance)*parseFloat(distance)) + "N ");
+		
+	});
+	
+	
+});
+					</textarea>
+				</form>
 				
 			</div>
 			
