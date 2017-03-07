@@ -27,10 +27,18 @@ $(document).ready(function(){
         //This is where I pull all my data
 		
 		
-		
-			
+		if(distance<0){
 		$('#print').html((0.00000000006673 * mass1 * mass2/(distance * distance) + " N"));
-		
+        }
+        
+        //This is where the actual math happens;
+        
+        
+        else {
+            $('#print').html("Distance too low");
+        }
+        // This if-else statement prevents values smaller than 0 being entered for distance
+        
 	});
 	
 	
